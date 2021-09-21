@@ -5,11 +5,11 @@
  */
 package githud;
 
-<<<<<<< HEAD
+
 import Servicios.ServiceAnimales;
-=======
+
 import Servicios.Servicio;
->>>>>>> 005ce37ec313a4d34eb99adf584a94a46905c5fd
+
 
 /**
  *
@@ -17,15 +17,12 @@ import Servicios.Servicio;
  */
 public class Githud {
     public static void main(String[] args) {
-<<<<<<< HEAD
         ServiceAnimales sAnimales=new ServiceAnimales();
         sAnimales.MakingAnimals();
-=======
         Servicio servi=new  Servicio();
         servi.crear_MostrarConejoPatoPajaro();
         
     
->>>>>>> 005ce37ec313a4d34eb99adf584a94a46905c5fd
         
     }
     
