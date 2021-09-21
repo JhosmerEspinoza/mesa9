@@ -17,6 +17,7 @@ import Servicios.Servicio;
  */
 public class Githud {
     public static void main(String[] args) {
+<<<<<<< HEAD
 
         ServiceAnimales sAnimales=new ServiceAnimales();
         sAnimales.MakingAnimals();
@@ -25,6 +26,14 @@ public class Githud {
         servi.crear_MostrarConejoPatoPajaro();
         
    
+=======
+        ServiceAnimales sAnimales=new ServiceAnimales();
+        sAnimales.MakingAnimals();
+        Servicio servi=new  Servicio();
+        servi.crear_MostrarConejoPatoPajaro();
+        
+    
+>>>>>>> 346cfe40582f79c26d77f0868d69b27ccae472ab
         
     }
     
