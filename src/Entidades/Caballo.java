@@ -12,13 +12,13 @@ package Entidades;
 public class Caballo {
     
   private String nombre;
-  private Float tamanho;
+  private String tamanho;
   private int anhos;
 
     public Caballo() {
     }
 
-    public Caballo(String nombre, Float tamanho, int anhos) {
+    public Caballo(String nombre, String tamanho, int anhos) {
         this.nombre = nombre;
         this.tamanho = tamanho;
         this.anhos = anhos;
@@ -32,11 +32,11 @@ public class Caballo {
         this.nombre = nombre;
     }
 
-    public Float getTamanho() {
+    public String getTamanho() {
         return tamanho;
     }
 
-    public void setTamanho(Float tamanho) {
+    public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
 
@@ -47,4 +47,10 @@ public class Caballo {
     public void setAnhos(int anhos) {
         this.anhos = anhos;
     }
+
+    @Override
+    public String toString() {
+        return "Caballo{" + "nombre=" + nombre + ", tamanho=" + tamanho + ", anhos=" + anhos + '}';
+    }
+    
 }

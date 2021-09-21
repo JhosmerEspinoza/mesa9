@@ -5,6 +5,8 @@
  */
 package githud;
 
+import Servicios.ServiceAnimales;
+
 /**
  *
  * @author jhosenny
@@ -15,7 +17,8 @@ public class Githud {
      * @param args dxdthe command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ServiceAnimales sAnimales=new ServiceAnimales();
+        sAnimales.MakingAnimals();
         
     }
     

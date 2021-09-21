@@ -14,12 +14,12 @@ public class Gato {
     private String nombre;
     private String raza;
     private Integer anhos;
-    private Float tamanho;
+    private String tamanho;
 
     public Gato() {
     }
 
-    public Gato(String nombre, String raza, Integer anhos, Float tamanho) {
+    public Gato(String nombre, String raza, Integer anhos, String tamanho) {
         this.nombre = nombre;
         this.raza = raza;
         this.anhos = anhos;
@@ -50,12 +50,17 @@ public class Gato {
         this.anhos = anhos;
     }
 
-    public Float getTamanho() {
+    public String getTamanho() {
         return tamanho;
     }
 
-    public void setTamanho(Float tamanho) {
+    public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
+    }
+
+    @Override
+    public String toString() {
+        return "Gato{" + "nombre=" + nombre + ", raza=" + raza + ", anhos=" + anhos + ", tamanho=" + tamanho + '}';
     }
     
     
