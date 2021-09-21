@@ -40,5 +40,12 @@ public class Conejo {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Conejo{" + "name=" + name + ", color=" + color + ", age=" + age + '}';
+    }
+    
+    
     
 }

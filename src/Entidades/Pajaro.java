@@ -40,5 +40,11 @@ public class Pajaro {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Pajaro{" + "name=" + name + ", color=" + color + ", age=" + age + '}';
+    }
+    
     
 }
