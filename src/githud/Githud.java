@@ -5,17 +5,18 @@
  */
 package githud;
 
+import Servicios.Servicio;
+
 /**
  *
  * @author jhosenny
  */
 public class Githud {
-
-    /**
-     * @param args dxdthe command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Servicio servi=new  Servicio();
+        servi.crear_MostrarConejoPatoPajaro();
+        
+    
         
     }
     

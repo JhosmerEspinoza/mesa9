@@ -13,17 +13,15 @@ public class Pato {
     private String nombre;
     private String color;
     private int edad;
-    private Boolean sexo;
 
     public Pato() {
     }
     
 
-    public Pato(String nombre, String color, int edad, Boolean sexo) {
+    public Pato(String nombre, String color, int edad) {
         this.nombre = nombre;
         this.color = color;
         this.edad = edad;
-        this.sexo = sexo;
     }
 
     public String getNombre() {
@@ -48,13 +46,11 @@ public class Pato {
 
     public void setEdad(int edad) {
         this.edad = edad;
-    }
+    }    
 
-    public Boolean getSexo() {
-        return sexo;
+    @Override
+    public String toString() {
+        return "Pato{" + "nombre=" + nombre + ", color=" + color + ", edad=" + edad + ", sexo=" + '}';
     }
-
-    public void setSexo(Boolean sexo) {
-        this.sexo = sexo;
-    }     
+    
 }
